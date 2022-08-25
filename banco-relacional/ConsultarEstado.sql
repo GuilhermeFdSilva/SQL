@@ -1,8 +1,8 @@
-SELECT * FROM estados
+SELECT * FROM estados;
 
 SELECT nome AS 'Nome do Estado', sigla FROM estados
-WHERE regiao = 'Sul'
+WHERE regiao = 'Sul';
 
 SELECT nome, populacao, regiao FROM estados
 WHERE populacao >= 10
-ORDER BY populacao DESC
+ORDER BY populacao DESC;
